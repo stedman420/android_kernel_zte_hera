@@ -218,7 +218,7 @@ config OV2720
 
 
 config OV8825_ACT
-	bool " Internal  Actuator OV8825 (BAYER 8.0M)"
+	bool "Internal  Actuator OV8825 (BAYER 8.0M)"
 	depends on MSM_CAMERA && ARCH_MSM8960
 	default n
 	---help---
