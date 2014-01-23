@@ -72,6 +72,7 @@ static void avs_enable_local(void *data)
 
 static void avs_disable_local(void *data)
 {
+
 	avs_set_avscsr(0);
 }
 
